@@ -1,0 +1,149 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "Jan",
+      "lastName": "Kowalski",
+      "nip": "5260250995",
+      "address": [
+        {
+          "id": 1,
+          "street": "Wrocławska",
+          "number": "7/14",
+          "code": "33-230",
+          "city": "Warszawa"
+        }
+      ],
+      "contact": [
+        {
+          "id": 1,
+          "type": "phone",
+          "value": "511-123-321"
+        },
+        {
+          "id": 2,
+          "type": "email",
+          "value": "test@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Agnieszka",
+      "lastName": "Kowalska",
+      "nip": "",
+      "address": [
+        {
+          "id": 21,
+          "street": "Lipowa",
+          "number": "7/14",
+          "code": "33-001",
+          "city": "Łódź"
+        }
+      ],
+      "contact": [
+        {
+          "id": 22,
+          "type": "phone",
+          "value": "999-421-321"
+        },
+        {
+          "id": 31,
+          "type": "email",
+          "value": "test2@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Tomasz",
+      "lastName": "Kowalski",
+      "nip": "123-156-33-22",
+      "address": [
+        {
+          "id": 45,
+          "street": "Kwiatowa",
+          "number": "7",
+          "code": "33-001",
+          "city": "Łódź"
+        }
+      ],
+      "contact": [
+        {
+          "id": 78,
+          "type": "phone",
+          "value": "431-421-321"
+        },
+        {
+          "id": 4,
+          "type": "email",
+          "value": "test2@gmail.com"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventDate": 1694675647,
+      "eventName": "Logowanie do aplikacji",
+      "clientId": 1
+    },
+    {
+      "id": 2,
+      "eventDate": 1694675847,
+      "eventName": "Zamówenie produktów",
+      "clientId": 1
+    },
+    {
+      "id": 3,
+      "eventDate": 1694675947,
+      "eventName": "Płatność zakończona",
+      "clientId": 1
+    },
+    {
+      "id": 4,
+      "eventDate": 1694675147,
+      "eventName": "Rejestracja",
+      "clientId": 1
+    },
+    {
+      "id": 5,
+      "eventDate": 1694674147,
+      "eventName": "Rejestracja",
+      "clientId": 2
+    },
+    {
+      "id": 6,
+      "eventDate": 1694674140,
+      "eventName": "Rejestracja",
+      "clientId": 3
+    },
+    {
+      "id": 6,
+      "eventDate": 1694679140,
+      "eventName": "Logowanie do aplikacji",
+      "clientId": 3
+    }
+  ],
+  "objectGps": [
+    {
+      "id": 1,
+      "lat": "54.372158",
+      "long": "18.638306",
+      "clientId": 1
+    },
+    {
+      "id": 2,
+      "lat": "50.286263",
+      "long": "18.638306",
+      "clientId": 2
+    },
+    {
+      "id": 3,
+      "lat": "53.428543",
+      "long": "14.552812",
+      "clientId": 3
+    }
+  ]
+}
