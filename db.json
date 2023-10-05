@@ -3,7 +3,7 @@
     {
       "id": 1,
       "firstName": "Jan",
-      "lastName": "Kowalski",
+      "lastName": "Kowalśki",
       "nip": "5260250995",
       "address": [
         {
@@ -120,7 +120,7 @@
       "clientId": 3
     },
     {
-      "id": 6,
+      "id": 7,
       "eventDate": 1694679140,
       "eventName": "Logowanie do aplikacji",
       "clientId": 3
