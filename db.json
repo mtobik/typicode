@@ -80,6 +80,33 @@
           "value": "test2@gmail.com"
         }
       ]
+    },
+    {
+      "id": 4,
+      "firstName": "Jan",
+      "lastName": "Kowalśki",
+      "nip": "123-156-33-22",
+      "address": [
+        {
+          "id": 45,
+          "street": "Kwiatowa",
+          "number": "7",
+          "code": "33-001",
+          "city": "Łódź"
+        }
+      ],
+      "contact": [
+        {
+          "id": 78,
+          "type": "phone",
+          "value": "431-421-321"
+        },
+        {
+          "id": 4,
+          "type": "email",
+          "value": "test2@gmail.com"
+        }
+      ]
     }
   ],
   "events": [
